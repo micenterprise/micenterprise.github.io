@@ -8184,6 +8184,10 @@ button.bg-dark:focus {
   box-shadow: none !important;
 }
 
+.w-35 {
+    width:  35px !important;
+}
+
 .w-25 {
   width: 25% !important;
 }
@@ -8198,6 +8202,10 @@ button.bg-dark:focus {
 
 .w-100 {
   width: 100% !important;
+}
+
+.w-120px{
+    width: 120px !important;
 }
 
 .w-auto {
@@ -53120,4 +53128,28 @@ input[type=file].form-control-sm {
 
 .w-35 {
     width: 35px !important;
+}
+
+.btn-info-tooltips {
+    position: fixed;
+    right: 15px;
+    bottom: 14px;
+    color: rgb(33, 49, 130);
+}
+
+.page-header-btn {
+    display: inline-flex;
+    vertical-align: middle;
+    margin-bottom: 5px !important;
+    margin-left: 5px;
+}
+
+.fs-24 {
+    font-size: 24px !important
+}
+
+.required::after{
+    color: red;
+    margin-left: 2px;
+    content: "*"
 }

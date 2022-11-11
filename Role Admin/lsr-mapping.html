@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Unilever Cotton</title>
+
+    <!-- Favicons -->
+    <link href="../dist/img/favicon.ico" rel="icon">
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="../plugins/fontawesome-free/css/all.min.css">
+    <!-- daterange picker -->
+    <link rel="stylesheet" href="../plugins/daterangepicker/daterangepicker.css">
+    <!-- Tempusdominus Bootstrap 4 -->
+    <link rel="stylesheet" href="../plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+    <!-- Select2 -->
+    <link rel="stylesheet" href="../plugins/select2/css/select2.min.css">
+    <link rel="stylesheet" href="../plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="../dist/css/style.css">
+</head>
+
+<body class="hold-transition sidebar-mini layout-navbar-fixed">
+    <div class="wrapper">
+
+        <!-- Navbar -->
+        <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+            <!-- Left navbar links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+                </li>
+            </ul>
+
+            <!-- Right navbar links -->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link" data-toggle="dropdown" href="#">
+                        <i class="far fa-user mr-2"></i>Hi, Derian G.
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+                        <a href="#" class="dropdown-item">
+                            <div class="media">
+                                <img src="../dist/img/unilever.png" alt="User Avatar" class="img-size-32 mr-3 py-2">
+                                <div class="media-body mt-1">
+                                    <h3 class="dropdown-item-title">
+                                        Derian G.
+                                    </h3>
+                                    <p class="text-sm text-muted">Super Admin</p>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="login.html" class="dropdown-item dropdown-footer">
+                            <i class="fas fa-sign-in-alt mr-2"></i>
+                            Sign Out
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <!-- /.navbar -->
+        <!-- Main Sidebar Container -->
+        <aside class="main-sidebar sidebar-dark-primary elevation-4">
+            <!-- Brand Logo -->
+            <a href="index3.html" class="brand-link">
+                <img src="../dist/img/unilever-white.png" alt="Unilever Logo" class="brand-image">
+                <span class="brand-text font-weight-light">Unilever Cotton</span>
+            </a>
+
+            <!-- Sidebar -->
+            <div class="sidebar">
+
+                <!-- Sidebar Menu -->
+                <nav class="mt-2">
+                    <ul class="nav nav-pills nav-sidebar flex-column nav-child-indent" data-widget="treeview"
+                        role="menu" data-accordion="false">
+                        <li class="nav-item menu-open">
+                            <a href="#" class="nav-link active">
+                                <i class="nav-icon fas fa-folder"></i>
+                                <p>
+                                    Master Data
+                                    <i class="right fas fa-angle-left"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="sales-org.html" class="nav-link">
+                                        <i class="fa fa-folder nav-icon"></i>
+                                        <p>Sales Org</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="division.html" class="nav-link ">
+                                        <i class="fa fa-folder nav-icon"></i>
+                                        <p>Division</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="area.html" class="nav-link">
+                                        <i class="fa fa-folder nav-icon"></i>
+                                        <p>Area</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="channel.html" class="nav-link">
+                                        <i class="fa fa-folder nav-icon"></i>
+                                        <p>Channel</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="mapping-channel.html" class="nav-link">
+                                        <i class="fa fa-folder nav-icon"></i>
+                                        <p>Mapping Channel</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="maintain-margin.html" class="nav-link">
+                                        <i class="fa fa-folder nav-icon"></i>
+                                        <p>Maintain Margin</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="maintain-harga-batam.html" class="nav-link">
+                                        <i class="fa fa-folder nav-icon"></i>
+                                        <p>Maintain Harga Batam</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="cotton-calendar.html" class="nav-link">
+                                        <i class="fa fa-folder nav-icon"></i>
+                                        <p>Cotton Calendar</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="exception-sku.html" class="nav-link">
+                                        <i class="fa fa-folder nav-icon"></i>
+                                        <p>Exception SKU</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="job-title.html" class="nav-link">
+                                        <i class="fa fa-folder nav-icon"></i>
+                                        <p>Job Title</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="sku-mapping-status.html" class="nav-link">
+                                        <i class="fa fa-folder nav-icon"></i>
+                                        <p>SKU Mapping Status</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="status-proposal.html" class="nav-link">
+                                        <i class="fa fa-folder nav-icon"></i>
+                                        <p>Status Proposal</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="proposal-remark.html" class="nav-link">
+                                        <i class="fa fa-folder nav-icon"></i>
+                                        <p>Proposal Remark</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="ph-exception-mapping.html" class="nav-link">
+                                        <i class="fa fa-folder nav-icon"></i>
+                                        <p>PH Exception Mapping</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="lsr-mapping.html" class="nav-link active">
+                                        <i class="fa fa-folder nav-icon"></i>
+                                        <p>LSR Mapping to Division</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="approval.html" class="nav-link">
+                                        <i class="fa fa-folder nav-icon"></i>
+                                        <p>Approval</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="approval-to-publish.html" class="nav-link">
+                                        <i class="fa fa-folder nav-icon"></i>
+                                        <p>Approval to Publish Proposal</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="download-calendar.html" class="nav-link">
+                                        <i class="fa fa-folder nav-icon"></i>
+                                        <p>Download Calendar</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="mapping-job-title.html" class="nav-link">
+                                        <i class="fa fa-folder nav-icon"></i>
+                                        <p>Mapping Job Title</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="nav-icon fas fa-file-alt"></i>
+                                <p>
+                                    Proposal
+                                    <i class="right fas fa-angle-left"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="new-proposal.html" class="nav-link">
+                                        <i class="fa fa-plus nav-icon"></i>
+                                        <p>New Proposal</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="upload-proposal.html" class="nav-link">
+                                        <i class="fas fa-upload nav-icon"></i>
+                                        <p>Upload Proposal</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="list-proposal.html" class="nav-link">
+                                        <i class="fas fa-th-list nav-icon"></i>
+                                        <p>List Proposal</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="recall.html" class="nav-link">
+                                        <i class="fas fa-sync-alt nav-icon"></i>
+                                        <p>Recall</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="change-effdate.html" class="nav-link">
+                                        <i class="fas fa-calendar-alt nav-icon"></i>
+                                        <p>Change Effective Date</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="approve-proposal.html" class="nav-link">
+                                        <i class="fas fa-check-double nav-icon"></i>
+                                        <p>Approve Proposal</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="nav-icon fas fa-dollar-sign"></i>
+                                <p>
+                                    Pricelist
+                                    <i class="right fas fa-angle-left"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="submit-pricelist.html" class="nav-link">
+                                        <i class="fa fa-upload nav-icon"></i>
+                                        <p>Submit Pricelist</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="list-pricelist.html" class="nav-link">
+                                        <i class="fas fa-th-list nav-icon"></i>
+                                        <p>List Pricelist</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="approve-pricelist.html" class="nav-link">
+                                        <i class="fas fa-check-double nav-icon"></i>
+                                        <p>Approve Pricelist</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="convert-pricelist.html" class="nav-link">
+                                        <i class="fas fa-sync-alt nav-icon"></i>
+                                        <p>Convert Pricelist</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="download-pricelist.html" class="nav-link">
+                                        <i class="fa fa-download nav-icon"></i>
+                                        <p>Download Pricelist</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="price-deletion.html" class="nav-link">
+                                        <i class="fa fa-trash-alt nav-icon"></i>
+                                        <p>Price Deletion</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="approve-price-deletion.html" class="nav-link">
+                                        <i class="fa fa-check-double nav-icon"></i>
+                                        <p>Approve Deletion</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="publish-pricelist.html" class="nav-link">
+                                        <i class="fas fa-paper-plane nav-icon"></i>
+                                        <p>Publish Pricelist</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="edit-pricelist.html" class="nav-link">
+                                        <i class="fas fa-edit nav-icon"></i>
+                                        <p>Edit Pricelist</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="monitor-gsom.html" class="nav-link">
+                                        <i class="fas fa-search nav-icon"></i>
+                                        <p>Monitor GSOM Approval</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="approve-edit-pricelist.html" class="nav-link">
+                                        <i class="fas fa-clipboard-check nav-icon"></i>
+                                        <p>Approve Edit Pricelist</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="automatic-settings.html" class="nav-link">
+                                        <i class="fa fa-cogs nav-icon"></i>
+                                        <p>Publish Automation Settings</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="nav-icon fas fa-user"></i>
+                                <p>
+                                    User
+                                    <i class="right fas fa-angle-left"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="double-role-segment.html" class="nav-link">
+                                        <i class="fas fa-user-friends nav-icon"></i>
+                                        <p>Double Role Segment</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="unassign-segment.html" class="nav-link">
+                                        <i class="fas fa-user-alt-slash nav-icon"></i>
+                                        <p>Unassign Segment</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="change-authorization.html" class="nav-link">
+                                        <i class="fas fa-user-lock nav-icon"></i>
+                                        <p>Change Authorization</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="approve-user.html" class="nav-link">
+                                        <i class="fas fa-user-check nav-icon"></i>
+                                        <p>Approve User</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="delegation.html" class="nav-link">
+                                        <i class="fas fa-users-cog nav-icon"></i>
+                                        <p>Delegation</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="activity-log.html" class="nav-link">
+                                        <i class="fas fa-user-clock nav-icon"></i>
+                                        <p>Activity Log</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- /.sidebar-menu -->
+            </div>
+            <!-- /.sidebar -->
+        </aside>
+
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <div class="content-header">
+                <div class="container-fluid">
+                    <div class="row mb-2">
+                        <div class="col-sm-6">
+                            <h1 class="m-0">Data LSR Mapping to Division</h1>
+                        </div><!-- /.col -->
+                        <div class="col-sm-6">
+                            <ol class="breadcrumb float-sm-right">
+                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                <li class="breadcrumb-item active">LSR Mapping to Division</li>
+                            </ol>
+                        </div><!-- /.col -->
+                    </div><!-- /.row -->
+                </div><!-- /.container-fluid -->
+            </div>
+            <!-- /.content-header -->
+            <!-- Main content -->
+            <div class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="float-left">
+                                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal">
+                                            <i class="fa fa-plus mr-2"></i>LSR Mapping
+                                        </button>
+                                        <button type="button" class="btn btn-primary"
+                                                title="Add Product" data-toggle="modal" data-target="#modalimport">
+                                            <i class="fas fa-download nav-icon mr-2"></i>Import LSR Mapping
+                                        </button>
+                                        <!-- Modal import-->
+                                        <div class="modal fade align" id="modalimport">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h4 class="modal-title">Import LSR Mapping to Division</h4>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="row">
+                                                            <div class="col-md">
+                                                                <p>
+                                                                    Please download the <a href="">LSR Mapping to Division Template</a> document, then re-upload the completed document via the following form.
+                                                                </p>
+                                                                <input type="file" class="form-control" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Save</button>
+                                                        <button type="button" class="btn btn-default" data-dismiss="modal" aria-label="Close">Cancel</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="input-group mb-3 w-250 float-right">
+                                        <input type="text" name="table_search" class="form-control float-right"
+                                               placeholder="Search">
+                                        <div class="input-group-append">
+                                            <button type="submit" class="btn btn-default">
+                                                <i class="fas fa-search"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div class="table-responsive">
+                                        <table class="table table-hover text-nowrap table-bordered">
+                                            <thead>
+                                                <tr>
+                                                    <th rowspan="2">No</th>
+                                                    <th rowspan="2">Local Sales Region</th>
+                                                    <th rowspan="2">Description</th>
+                                                    <th colspan="11" class="text-center">Division</th>
+                                                    <th rowspan="2" width="100">Action</th>
+                                                </tr>
+                                                <tr>
+                                                    <td>F</td>
+                                                    <td>HC</td>
+                                                    <td>IC</td>
+                                                    <td>PC</td>
+                                                    <td>IO</td>
+                                                    <td>BV</td>
+                                                    <td>FS</td>
+                                                    <td>IS</td>
+                                                    <td>SP</td>
+                                                    <td>TES</td>
+                                                    <td>BW</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <!-- <tr>
+                    <td colspan="19"><i>No data available in table</i></td>
+                </tr> -->
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>D36405</td>
+                                                    <td> </td>
+                                                    <td>OI MT</td>
+                                                    <td>OI MT</td>
+                                                    <td>
+                                                        NAT<br />
+                                                        MT<br />
+                                                        OI GT<br />
+                                                    </td>
+                                                    <td>OI MT</td>
+                                                    <td> </td>
+                                                    <td>OI MT</td>
+                                                    <td>OI MT</td>
+                                                    <td> </td>
+                                                    <td>OI MT</td>
+                                                    <td> </td>
+                                                    <td> </td>
+                                                    <td>
+                                                        <button type="button" class="btn btn-outline-primary btn-sm"
+                                                                title="Edit" data-toggle="modal" data-target="#modal">
+                                                            <i class="fa fa-pen mr-2"></i>Edit
+                                                        </button>
+                                                        <button type="button" class="btn btn-outline-danger btn-sm"
+                                                                title="Delete">
+                                                            <i class="fa fa-trash-alt mr-2"></i>Delete
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>D36405</td>
+                                                    <td> </td>
+                                                    <td>OI MT</td>
+                                                    <td>OI MT</td>
+                                                    <td>
+                                                        NAT<br />
+                                                        MT<br />
+                                                        OI GT<br />
+                                                    </td>
+                                                    <td>OI MT</td>
+                                                    <td> </td>
+                                                    <td>OI MT</td>
+                                                    <td>OI MT</td>
+                                                    <td> </td>
+                                                    <td>OI MT</td>
+                                                    <td> </td>
+                                                    <td> </td>
+                                                    <td>
+                                                        <button type="button" class="btn btn-outline-primary btn-sm"
+                                                                title="Edit" data-toggle="modal" data-target="#modal">
+                                                            <i class="fa fa-pen mr-2"></i>Edit
+                                                        </button>
+                                                        <button type="button" class="btn btn-outline-danger btn-sm"
+                                                                title="Delete">
+                                                            <i class="fa fa-trash-alt mr-2"></i>Delete
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                    <ul class="pagination pagination-sm m-0 mt-3 justify-content-center">
+                                        <li class="page-item"><a class="page-link" href="#">«</a></li>
+                                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">»</a></li>
+                                    </ul>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row -->
+                </div><!-- /.container-fluid -->
+            </div>
+            <!-- /.content -->
+            <!-- Modal -->
+            <div class="modal fade align" id="modal">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">LSR Mapping to Division</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-group mb-2">
+                                <label class="label-sm">Local Sales Region</label>
+                                <select class="select2 form-control form-control-sm" style="width: 100%;">
+                                    <option value="" disabled selected hidden>Please Select...</option>
+                                    <option>D36405 - </option>
+                                    <option>D36405 - </option>
+                                    <option>D36405 - </option>
+                                    <option>D36405 - </option>
+                                </select>
+                            </div>
+                            <label class="label-sm mb-2">Sub Channel</label>
+                            <div class="form-group">
+                                <label class="label-sm">F</label>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox1" value="option1">
+                                            <label for="customCheckbox1" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox2" value="option2">
+                                            <label for="customCheckbox2" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox3" value="option3">
+                                            <label for="customCheckbox3" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox4" value="option4">
+                                            <label for="customCheckbox4" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="label-sm">HC</label>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox5" value="option5">
+                                            <label for="customCheckbox5" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox6" value="option6">
+                                            <label for="customCheckbox6" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox7" value="option7">
+                                            <label for="customCheckbox7" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox8" value="option8">
+                                            <label for="customCheckbox8" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="label-sm">IC</label>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox9" value="option9">
+                                            <label for="customCheckbox9" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox10" value="option10">
+                                            <label for="customCheckbox10" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox11" value="option11">
+                                            <label for="customCheckbox11" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox12" value="option12">
+                                            <label for="customCheckbox12" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="label-sm">PC</label>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox13" value="option13">
+                                            <label for="customCheckbox13" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox14" value="option14">
+                                            <label for="customCheckbox14" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox15" value="option15">
+                                            <label for="customCheckbox15" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox16" value="option16">
+                                            <label for="customCheckbox16" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="label-sm">IO</label>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox9" value="option19">
+                                            <label for="customCheckbox19" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox9" value="option19">
+                                            <label for="customCheckbox19" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox9" value="option19">
+                                            <label for="customCheckbox19" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox9" value="option19">
+                                            <label for="customCheckbox19" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="label-sm">BV</label>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox9" value="option19">
+                                            <label for="customCheckbox19" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox9" value="option19">
+                                            <label for="customCheckbox19" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox9" value="option19">
+                                            <label for="customCheckbox19" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox9" value="option19">
+                                            <label for="customCheckbox19" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="label-sm">FS</label>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox9" value="option19">
+                                            <label for="customCheckbox19" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox9" value="option19">
+                                            <label for="customCheckbox19" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox9" value="option19">
+                                            <label for="customCheckbox19" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox9" value="option19">
+                                            <label for="customCheckbox19" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="label-sm">IS</label>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox9" value="option19">
+                                            <label for="customCheckbox19" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox9" value="option19">
+                                            <label for="customCheckbox19" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox9" value="option19">
+                                            <label for="customCheckbox19" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox9" value="option19">
+                                            <label for="customCheckbox19" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="label-sm">SP</label>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox9" value="option19">
+                                            <label for="customCheckbox19" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox9" value="option19">
+                                            <label for="customCheckbox19" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox9" value="option19">
+                                            <label for="customCheckbox19" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox9" value="option19">
+                                            <label for="customCheckbox19" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="label-sm">TES</label>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox9" value="option19">
+                                            <label for="customCheckbox19" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox9" value="option19">
+                                            <label for="customCheckbox19" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox9" value="option19">
+                                            <label for="customCheckbox19" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox9" value="option19">
+                                            <label for="customCheckbox19" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="label-sm">BW</label>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox9" value="option19">
+                                            <label for="customCheckbox19" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox9" value="option19">
+                                            <label for="customCheckbox19" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox9" value="option19">
+                                            <label for="customCheckbox19" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox9" value="option19">
+                                            <label for="customCheckbox19" class="custom-control-label">OI MT</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Save</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal" aria-label="Close">Cancel</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.content-wrapper -->
+        <!-- Control Sidebar -->
+        <aside class="control-sidebar control-sidebar-dark">
+            <!-- Control sidebar content goes here -->
+            <div class="p-3">
+                <h5>Title</h5>
+                <p>Sidebar content</p>
+            </div>
+        </aside>
+        <!-- /.control-sidebar -->
+        <!-- Main Footer -->
+        <footer class="main-footer">
+            <!-- Default to the left -->
+            <strong>Copyright &copy; 2022 <a href="">Cotton</a>.</strong> All rights reserved.
+        </footer>
+    </div>
+    <!-- ./wrapper -->
+    <!-- REQUIRED SCRIPTS -->
+    <!-- jQuery -->
+    <script src="../plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Select2 -->
+    <script src="../plugins/select2/js/select2.full.min.js"></script>
+    <!-- InputMask -->
+    <script src="../plugins/moment/moment.min.js"></script>
+    <script src="../plugins/inputmask/jquery.inputmask.min.js"></script>
+    <!-- date-range-picker -->
+    <script src="../plugins/daterangepicker/daterangepicker.js"></script>
+    <!-- Tempusdominus Bootstrap 4 -->
+    <script src="../plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="../dist/js/script.js"></script>
+    <!-- Page specific script -->
+    <script>
+        $(function () {
+            //Initialize Select2 Elements
+            $('.select2').select2()
+
+            //Initialize Select2 Elements
+            $('.select2bs4').select2({
+                theme: 'bootstrap4'
+            })
+
+            //Date picker
+            $('#effectivedate').datetimepicker({
+                format: 'L'
+            });
+        })
+    </script>
+</body>
+
+</html>

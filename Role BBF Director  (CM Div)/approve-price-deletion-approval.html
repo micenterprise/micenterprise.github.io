@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Unilever Cotton</title>
+
+    <!-- Favicons -->
+    <link href="../dist/img/favicon.ico" rel="icon">
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="../plugins/fontawesome-free/css/all.min.css">
+    <!-- daterange picker -->
+    <link rel="stylesheet" href="../plugins/daterangepicker/daterangepicker.css">
+    <!-- Tempusdominus Bootstrap 4 -->
+    <link rel="stylesheet" href="../plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+    <!-- Select2 -->
+    <link rel="stylesheet" href="../plugins/select2/css/select2.min.css">
+    <link rel="stylesheet" href="../plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="../dist/css/style.css">
+</head>
+<body class="hold-transition sidebar-mini layout-navbar-fixed">
+    <div class="wrapper">
+
+        <!-- Navbar -->
+        <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+            <!-- Left navbar links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+                </li>
+            </ul>
+
+            <!-- Right navbar links -->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link" data-toggle="dropdown" href="#">
+                        <i class="far fa-user mr-2"></i>Hi, Hernie Raharja
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+                        <a href="#" class="dropdown-item">
+                            <div class="media">
+                                <img src="../dist/img/unilever.png" alt="User Avatar" class="img-size-32 mr-3 py-2">
+                                <div class="media-body mt-1">
+                                    <h3 class="dropdown-item-title">
+                                        Hernie Raharja
+                                    </h3>
+                                    <p class="text-sm text-muted">BBF Director  (CM Div)</p>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item dropdown-footer">
+                            <i class="fas fa-sign-in-alt mr-2"></i>
+                            Sign Out
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <!-- /.navbar -->
+        <!-- Main Sidebar Container -->
+        <aside class="main-sidebar sidebar-dark-primary elevation-4">
+            <!-- Brand Logo -->
+            <a href="index3.html" class="brand-link">
+                <img src="../dist/img/unilever-white.png" alt="Unilever Logo" class="brand-image">
+                <span class="brand-text font-weight-light">Unilever Cotton</span>
+            </a>
+
+            <!-- Sidebar -->
+            <div class="sidebar">
+
+                <!-- Sidebar Menu -->
+                <nav class="mt-2">
+                    <ul class="nav nav-pills nav-sidebar flex-column nav-child-indent" data-widget="treeview" role="menu" data-accordion="false">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="nav-icon fas fa-folder"></i>
+                                <p>
+                                    Master Data
+                                    <i class="right fas fa-angle-left"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="cotton-calendar.html" class="nav-link">
+                                        <i class="fa fa-folder nav-icon"></i>
+                                        <p>Cotton Calendar</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="download-calendar.html" class="nav-link">
+                                        <i class="fa fa-folder nav-icon"></i>
+                                        <p>Download Calendar</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="nav-icon fas fa-file-alt"></i>
+                                <p>
+                                    Proposal
+                                    <i class="right fas fa-angle-left"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+
+                                <li class="nav-item">
+                                    <a href="approve-proposal.html" class="nav-link">
+                                        <i class="fas fa-check-double nav-icon"></i>
+                                        <p>Approve Proposal</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item menu-open">
+                            <a href="#" class="nav-link active">
+                                <i class="nav-icon fas fa-dollar-sign"></i>
+                                <p>
+                                    Pricelist
+                                    <i class="right fas fa-angle-left"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="download-pricelist.html" class="nav-link">
+                                        <i class="fa fa-download nav-icon"></i>
+                                        <p>Download Pricelist</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="approve-price-deletion.html" class="nav-link active">
+                                        <i class="fa fa-check-double nav-icon"></i>
+                                        <p>Approve Deletion</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="nav-icon fas fa-user"></i>
+                                <p>
+                                    User
+                                    <i class="right fas fa-angle-left"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="change-authorization.html" class="nav-link">
+                                        <i class="fas fa-user-lock nav-icon"></i>
+                                        <p>Change Authorization</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="approve-user.html" class="nav-link">
+                                        <i class="fas fa-user-check nav-icon"></i>
+                                        <p>Approve User</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="delegation.html" class="nav-link">
+                                        <i class="fas fa-users-cog nav-icon"></i>
+                                        <p>Delegation</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- /.sidebar-menu -->
+            </div>
+            <!-- /.sidebar -->
+        </aside>
+
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <div class="content-header">
+                <div class="container-fluid">
+                    <div class="row mb-2">
+                        <div class="col-sm-6">
+                            <a href="approve-price-deletion.html" class="btn btn-default btn-sm">
+                                <i class="fa fa-angle-left mr-2"></i>Back to Previous
+                            </a>
+                            <div class="h4 page-header-btn">| Price Deletion Detail</div>
+                        </div><!-- /.col -->
+                        <div class="col-sm-6">
+                            <ol class="breadcrumb float-sm-right">
+                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                <li class="breadcrumb-item active">Price Deletion</li>
+                            </ol>
+                        </div><!-- /.col -->
+                    </div><!-- /.row -->
+                </div><!-- /.container-fluid -->
+            </div>
+            <!-- /.content-header -->
+            <!-- Main content -->
+            <div class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="card card-primary card-tabs">
+                                <div class="card-header p-0 pt-1">
+                                    <ul class="nav nav-tabs" id="proposal-nav" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" id="data-proposal-tab" data-toggle="pill" href="#data-proposal" role="tab" aria-controls="data-proposal" aria-selected="true">DATA PROPOSAL</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" id="message-tab" data-toggle="pill" href="#message" role="tab" aria-controls="message" aria-selected="false">COMMENTS</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tab-content" id="proposal-tabContent">
+                                    <div class="tab-pane fade show active" id="data-proposal" role="tabpanel" aria-labelledby="data-proposal-tab">
+                                        <div class="card-body">
+                                            <div class="form-group form-inline">
+                                                <label class="col-md-3">Pricelist Number</label>
+                                                <div class="col-md-9">PC20318-6</div>
+                                            </div>
+                                            <div class="form-group form-inline">
+                                                <label class="col-md-3">Creator</label>
+                                                <div class="col-md-9">Juliana Hartawan</div>
+                                            </div>
+                                            <div class="form-group form-inline">
+                                                <label class="col-md-3">Subject</label>
+                                                <div class="col-md-9">Baby - Banded Hairlot+Telon Plus</div>
+                                            </div>
+                                            <div class="alert alert-light alert-dismissible text-sm">
+                                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                                                <i class="fa fa-info-circle mr-2"></i>Based on new Cotton policy (MoM 070721), any price changes must follow Cotton PI calendar. Please contact Cotton key users if proposal’s effective date is outside calendar.
+                                            </div>
+                                            <div class="input-group input-group-sm mb-3 w-250 float-left">
+                                                <input type="text" name="table_search" class="form-control float-right" placeholder="Search">
+
+                                                <div class="input-group-append">
+                                                    <button type="submit" class="btn btn-default">
+                                                        <i class="fas fa-search"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+
+                                            <div class="table-responsive">
+                                                <table class="table table-hover text-nowrap table-bordered">
+                                                    <thead>
+                                                        <tr>
+                                                            <th rowspan="2">SKU</th>
+                                                            <th rowspan="2">Products</th>
+                                                            <th rowspan="2">Configuration</th>
+                                                            <th rowspan="2">PCs/Case</th>
+                                                            <th rowspan="2">Remarks</th>
+                                                            <th rowspan="2">Area - Channel</th>
+                                                            <th rowspan="2">Sub Channel</th>
+                                                            <th rowspan="2">Effective Date</th>
+                                                            <th colspan="4" class="text-center">Current Price</th>
+                                                            <th colspan="4" class="text-center">Proposed Price</th>
+                                                            <th rowspan="2">Price Changes</th>
+                                                            <th rowspan="2">Comment</th>
+                                                            <th rowspan="2">Status</th>
+                                                            <th rowspan="2">Deletion Detail</th>
+                                                            <th rowspan="2">Action</th>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Toko NPPN</td>
+                                                            <td>Toko PPN</td>
+                                                            <td>RSP</td>
+                                                            <td>Ret Margin</td>
+                                                            <td>Toko NPPN</td>
+                                                            <td>Toko PPN</td>
+                                                            <td>RSP</td>
+                                                            <td>Ret Margin</td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>67801064</td>
+                                                            <td>Baby - Banded Hairlot+Telon Plus</td>
+                                                            <td>48X55ML</td>
+                                                            <td>48</td>
+                                                            <td>Add Channel</td>
+                                                            <td>Special Area-GT</td>
+                                                            <td>
+                                                                GT-ST 0<br />
+                                                                GT-ST 6<br />
+                                                                GT-ST 1<br />
+                                                            </td>
+                                                            <td>19/9/2021</td>
+                                                            <td>0</td>
+                                                            <td>0</td>
+                                                            <td>0</td>
+                                                            <td>0%</td>
+                                                            <td>1441.44144144144</td>
+                                                            <td>1600</td>
+                                                            <td>2000</td>
+                                                            <td>20 %</td>
+                                                            <td>
+                                                                <span class="badge badge-success"><i class="fa fa-arrow-up mr-1"></i>100 %</span>
+                                                                <!-- <span class="badge badge-danger"><i class="fa fa-arrow-down mr-1"></i>0.1 %</span> -->
+                                                            </td>
+                                                            <td></td>
+                                                            <td class="text-wrap">
+                                                                <span class="badge badge-danger">DELETE REQUEST BY ASST. BBFIN MGR: JULIANA HARTAWAN</span>
+                                                                <span class="badge badge-success">APPROVED BY CCBT LEAD BB DIRECTOR (MM): BAGUS CAHYONO</span>
+                                                                <span class="badge badge-success">APPROVED BY GSOM: KUMALA DEWI</span>
+                                                                <span class="badge badge-success">APPROVED BY CCD DIRECTOR (CMM DIV): INDAH SARI</span>
+                                                                <span class="badge badge-warning">BBF DIRECTOR  (CM DIV) APPROVAL</span>
+                                                                <span class="badge badge-warning">MDM APPROVAL</span>
+                                                                <span class="badge badge-warning">IT HEAD APPROVAL</span>
+                                                                <span class="badge badge-warning">CORPORATE CONTROLLER HEAD APPROVAL</span>
+                                                            </td>
+                                                            <td>
+                                                                <b>Background and Justification:</b><br />
+                                                                <p>The price doesn't match.</p>
+                                                                <button class="btn btn-default btn-sm"><i class="fa fa-search mr-2"></i>Approval Attachment</button>
+                                                            </td>
+                                                            <td>
+                                                                <button type="button" class="btn btn-outline-primary btn-sm w-35" title="View Detail" data-toggle="modal" data-target="#modal-lg"><i class="fa fa-search"></i></button>
+                                                                <button type="button" class="btn btn-success btn-sm w-35" title="Approve" data-toggle="modal" data-target="#modalApproveConfirm"><i class="fa fa-check"></i></button>
+                                                                <button type="button" class="btn btn-danger btn-sm w-35" title="Decline" data-toggle="modal" data-target="#modalDeclineConfirm"><i class="fa fa-times"></i></button>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>67801064</td>
+                                                            <td>Baby - Banded Hairlot+Telon Plus</td>
+                                                            <td>48X55ML</td>
+                                                            <td>48</td>
+                                                            <td>Add Channel</td>
+                                                            <td>Special Area-GT</td>
+                                                            <td>
+                                                                GT-ST 0<br />
+                                                                GT-ST 6<br />
+                                                                GT-ST 1<br />
+                                                            </td>
+                                                            <td>19/9/2021</td>
+                                                            <td>0</td>
+                                                            <td>0</td>
+                                                            <td>0</td>
+                                                            <td>0%</td>
+                                                            <td>1441.44144144144</td>
+                                                            <td>1600</td>
+                                                            <td>2000</td>
+                                                            <td>20 %</td>
+                                                            <td>
+                                                                <span class="badge badge-success"><i class="fa fa-arrow-up mr-1"></i>100 %</span>
+                                                                <!-- <span class="badge badge-danger"><i class="fa fa-arrow-down mr-1"></i>0.1 %</span> -->
+                                                            </td>
+                                                            <td></td>
+                                                            <td><span class="badge badge-primary">PUBLISHED</span></td>
+                                                            <td></td>
+                                                            <td>
+                                                                <button type="button" class="btn btn-outline-primary btn-sm w-35" title="View Detail" data-toggle="modal" data-target="#modal-lg"><i class="fa fa-search"></i></button>
+                                                            </td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <td>67801064</td>
+                                                            <td>Baby - Banded Hairlot+Telon Plus</td>
+                                                            <td>48X55ML</td>
+                                                            <td>48</td>
+                                                            <td>Add Channel</td>
+                                                            <td>Special Area-GT</td>
+                                                            <td>
+                                                                GT-ST 0<br />
+                                                                GT-ST 6<br />
+                                                                GT-ST 1<br />
+                                                            </td>
+                                                            <td>19/9/2021</td>
+                                                            <td>0</td>
+                                                            <td>0</td>
+                                                            <td>0</td>
+                                                            <td>0%</td>
+                                                            <td>1441.44144144144</td>
+                                                            <td>1600</td>
+                                                            <td>2000</td>
+                                                            <td>20 %</td>
+                                                            <td>
+                                                                <span class="badge badge-success"><i class="fa fa-arrow-up mr-1"></i>100 %</span>
+                                                                <!-- <span class="badge badge-danger"><i class="fa fa-arrow-down mr-1"></i>0.1 %</span> -->
+                                                            </td>
+                                                            <td></td>
+                                                            <td><span class="badge badge-primary">PUBLISHED</span></td>
+                                                            <td></td>
+                                                            <td>
+                                                                <button type="button" class="btn btn-outline-primary btn-sm w-35" title="View Detail" data-toggle="modal" data-target="#modal-lg"><i class="fa fa-search"></i></button>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <!-- Modal Confirm Box -->
+                                                <div class="modal fade align" id="confirmDelete">
+                                                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h4 class="modal-title text-danger"><i class="fa fa-trash-alt mr-2"></i>Price Deletion</h4>
+                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                    <span aria-hidden="true">&times;</span>
+                                                                </button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                Are you sure you want to delete this price?
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <a type="button" class="btn btn-danger" href="price-deletion-detail.html">Yes, Delete</a>
+                                                                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <ul class="pagination pagination-sm m-0 mt-3 justify-content-center">
+                                                <li class="page-item"><a class="page-link" href="#">«</a></li>
+                                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                                <li class="page-item"><a class="page-link" href="#">»</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="card-footer">
+                                            <a href="approve-price-deletion.html" class="btn btn-default"><i class="fa fa-angle-left mr-2"></i>Back to Previous</a>
+                                            <button type="button" class="btn btn-success" title="View Summary" data-toggle="modal" data-target="#modal-lg"><i class="fa fa-file-excel mr-2"></i>Summary</button>
+                                            <div class="float-right">
+                                                <button type="button" class="btn btn-success" title="Approve" data-toggle="modal" data-target="#modalApproveConfirm">APPROVE ALL</button>
+                                                <button type="button" class="btn btn-danger" title="Decline" data-toggle="modal" data-target="#modalDeclineConfirm">DECLINE ALL</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="message" role="tabpanel" aria-labelledby="message-tab">
+                                        <div class="card-body">
+                                            <!-- Conversations are loaded here -->
+                                            <div class="direct-chat-messages">
+                                                <!-- Message. Default to the left -->
+                                                <div class="direct-chat-msg">
+                                                    <div class="direct-chat-infos clearfix">
+                                                        <span class="direct-chat-name float-left">Alexander Pierce</span>
+                                                        <span class="direct-chat-timestamp float-right">23 Jan 2:00 pm</span>
+                                                    </div>
+                                                    <!-- /.direct-chat-img -->
+                                                    <div class="direct-chat-text">
+                                                        Thank you for sending this over! Can you include the factory new address to the approval file as well? Let me know if you've updated it. Kudos!
+                                                    </div>
+                                                    <!-- /.direct-chat-text -->
+                                                </div>
+                                                <!-- /.direct-chat-msg -->
+                                                <!-- Message to the right -->
+                                                <div class="direct-chat-msg right">
+                                                    <div class="direct-chat-infos clearfix">
+                                                        <span class="direct-chat-name float-right">Juliana Hartawan</span>
+                                                        <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
+                                                    </div>
+                                                    <!-- /.direct-chat-img -->
+                                                    <div class="direct-chat-text">
+                                                        Hey Miss Alex, for sure. I've updated the approval file. Let me know if there's anything else you need.
+                                                    </div>
+                                                    <!-- /.direct-chat-text -->
+                                                </div>
+                                                <!-- /.direct-chat-msg -->
+                                            </div>
+                                            <!--/.direct-chat-messages-->
+                                        </div>
+                                        <div class="card-footer">
+                                            <!-- <form action="#"> -->
+                                            <div class="input-group">
+                                                <input type="text" name="message" placeholder="Type Message ..." class="form-control">
+                                                <span class="input-group-append">
+                                                    <button type="submit" class="btn btn-default"><i class="fa fa-paper-plane mr-2"></i>Send</button>
+                                                </span>
+                                            </div>
+                                            <!-- </form> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /.card -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row -->
+                </div><!-- /.container-fluid -->
+            </div>
+            <!-- /.content -->
+        </div>
+        <!-- /.content-wrapper -->
+        <div class="modal fade align" id="modalApproveConfirm">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header text-success">
+                        <h4 class="modal-title"><i class="fa fa-check mr-2"></i>Approve Deletion</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        This action will approve and take the proposal to the next process. Are you sure?
+                    </div>
+                    <div class="modal-footer">
+                        <a type="button" class="btn btn-success px-4" href="approve-price-deletion-approved.html">Yes, Approve</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Confirm Box -->
+        <div class="modal fade align" id="modalDeclineConfirm">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header text-danger">
+                        <h4 class="modal-title"><i class="fa fa-times mr-2"></i>Decline Deletion</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        This action will Decline the proposal request. Are you sure?
+                    </div>
+                    <div class="modal-footer">
+                        <a type="button" class="btn btn-danger px-4" href="approve-price-deletion-approved.html">Yes, Decline</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Proposal Information -->
+        <div class="modal fade" id="modal-lg">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Product Information</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group mb-2">
+                            <label class="label-sm">Product</label>
+                            <select class="form-control form-control-sm" disabled>
+                                <option>Product Name</option>
+                            </select>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group mb-2">
+                                    <label class="label-sm">Unit Per Dozen</label>
+                                    <input class="form-control form-control-sm" value="12" disabled />
+                                </div>
+                                <div class="form-group mb-2">
+                                    <label class="label-sm">PCs/Case</label>
+                                    <input class="form-control form-control-sm" value="48" disabled />
+                                </div>
+                                <div class="form-group mb-2">
+                                    <label class="label-sm">Area</label>
+                                    <select class="form-control form-control-sm" disabled>
+                                        <option>Special Area</option>
+                                    </select>
+                                </div>
+                                <div class="form-group mb-2">
+                                    <label class="label-sm">Effective Date</label>
+                                    <div class="input-group date" id="effectivedate" data-target-input="nearest">
+                                        <input type="text" class="form-control form-control-sm datetimepicker-input" data-target="#effectivedate" disabled value="09/09/2022" />
+                                        <div class="input-group-append" data-target="#effectivedate" data-toggle="datetimepicker">
+                                            <div class="input-group-text"><i class="far fa-calendar-alt"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group mb-2">
+                                    <label class="label-sm">Toko PPN</label>
+                                    <div class="input-group input-group-sm">
+                                        <input type="text" class="form-control" value="10" disabled>
+                                        <div class="input-group-append">
+                                            <span class="input-group-text bg-success"><i class="fa fa-arrow-up mr-1"></i>1600</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group mb-2">
+                                    <label class="label-sm">Ret Margin</label>
+                                    <div class="input-group input-group-sm">
+                                        <input type="text" class="form-control" value="10" disabled>
+                                        <div class="input-group-append">
+                                            <span class="input-group-text bg-success"><i class="fa fa-arrow-up mr-1"></i>1600</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group mb-2">
+                                    <label class="label-sm">Configuration</label>
+                                    <input class="form-control form-control-sm" value="48X55ML" disabled />
+                                </div>
+                                <div class="form-group mb-2">
+                                    <label class="label-sm">Remark</label>
+                                    <select class="form-control form-control-sm" disabled>
+                                        <option>Add Channel</option>
+                                    </select>
+                                </div>
+                                <div class="form-group mb-2">
+                                    <label class="label-sm">Channel</label>
+                                    <select class="form-control form-control-sm" disabled>
+                                        <option>Channel Name</option>
+                                    </select>
+                                </div>
+                                <div class="form-group mb-2">
+                                    <label class="label-sm">Toko Price NPPN</label>
+                                    <div class="input-group input-group-sm">
+                                        <input type="text" class="form-control" value="1441.44144144144" disabled>
+                                        <div class="input-group-append">
+                                            <span class="input-group-text bg-success"><i class="fa fa-arrow-up mr-1"></i>144.144.144.144.144</span>
+                                        </div>
+                                    </div>
+                                    <!--Kalau Turun-->
+                                    <!--<div class="input-group input-group-sm">
+                                    <input type="text" class="form-control" value="1441.44144144144" disabled>
+                                    <div class="input-group-append">
+                                        <span class="input-group-text bg-danger"><i class="fa fa-arrow-down mr-1"></i>144.144.144.144.144</span>
+                                    </div>
+                                </div>-->
+                                </div>
+                                <div class="form-group mb-2">
+                                    <label class="label-sm">RSP Price PPN</label>
+                                    <div class="input-group input-group-sm">
+                                        <input type="text" class="form-control" value="1600" disabled>
+                                        <div class="input-group-append">
+                                            <span class="input-group-text bg-success"><i class="fa fa-arrow-up mr-1"></i>1600</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group mb-2">
+                                    <label class="label-sm">Ret Margin (Rp)</label>
+                                    <div class="input-group input-group-sm">
+                                        <input type="text" class="form-control" value="1600" disabled>
+                                        <div class="input-group-append">
+                                            <span class="input-group-text bg-success"><i class="fa fa-arrow-up mr-1"></i>400</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group mb-2">
+                            <label class="label-sm">Comment</label>
+                            <textarea type="text" class="form-control form-control-sm" disabled>Comments are typed here</textarea>
+                        </div>
+                        <div class="form-group mb-2">
+                            <label class="label-sm">Sub Channel</label>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                        <input class="custom-control-input" type="checkbox" id="customCheckbox1" value="option1">
+                                        <label for="customCheckbox1" class="custom-control-label">MT-SupPre</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                        <input class="custom-control-input" type="checkbox" id="customCheckbox1" value="option1">
+                                        <label for="customCheckbox1" class="custom-control-label">MT-SupPre</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                        <input class="custom-control-input" type="checkbox" id="customCheckbox1" value="option1">
+                                        <label for="customCheckbox1" class="custom-control-label">MT-SupPre</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                        <input class="custom-control-input" type="checkbox" id="customCheckbox1" value="option1">
+                                        <label for="customCheckbox1" class="custom-control-label">MT-SupPre</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                        <input class="custom-control-input" type="checkbox" id="customCheckbox1" value="option1">
+                                        <label for="customCheckbox1" class="custom-control-label">MT-SupPre</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                        <input class="custom-control-input" type="checkbox" id="customCheckbox1" value="option1" checked>
+                                        <label for="customCheckbox1" class="custom-control-label">MT-SupPre</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                        <input class="custom-control-input" type="checkbox" id="customCheckbox1" value="option1">
+                                        <label for="customCheckbox1" class="custom-control-label">MT-SupPre</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                        <input class="custom-control-input" type="checkbox" id="customCheckbox1" value="option1">
+                                        <label for="customCheckbox1" class="custom-control-label">MT-SupPre</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                        <input class="custom-control-input" type="checkbox" id="customCheckbox1" value="option1" checked>
+                                        <label for="customCheckbox1" class="custom-control-label">MT-SupPre</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                        <input class="custom-control-input" type="checkbox" id="customCheckbox1" value="option1">
+                                        <label for="customCheckbox1" class="custom-control-label">MT-SupPre</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal -->
+        <!-- Control Sidebar -->
+        <aside class="control-sidebar control-sidebar-dark">
+            <!-- Control sidebar content goes here -->
+            <div class="p-3">
+                <h5>Title</h5>
+                <p>Sidebar content</p>
+            </div>
+        </aside>
+        <!-- /.control-sidebar -->
+        <!-- Main Footer -->
+        <footer class="main-footer">
+            <!-- Default to the left -->
+            <strong>Copyright &copy; 2022 <a href="">Cotton</a>.</strong> All rights reserved.
+        </footer>
+    </div>
+    <!-- ./wrapper -->
+    <!-- REQUIRED SCRIPTS -->
+    <!-- jQuery -->
+    <script src="../plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Select2 -->
+    <script src="../plugins/select2/js/select2.full.min.js"></script>
+    <!-- InputMask -->
+    <script src="../plugins/moment/moment.min.js"></script>
+    <script src="../plugins/inputmask/jquery.inputmask.min.js"></script>
+    <!-- date-range-picker -->
+    <script src="../plugins/daterangepicker/daterangepicker.js"></script>
+    <!-- Tempusdominus Bootstrap 4 -->
+    <script src="../plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="../dist/js/script.js"></script>
+    <!-- Page specific script -->
+    <script>
+        $(function () {
+            //Initialize Select2 Elements
+            $('.select2').select2()
+
+            //Initialize Select2 Elements
+            $('.select2bs4').select2({
+                theme: 'bootstrap4'
+            })
+
+            //Date picker
+            $('#effectivedate').datetimepicker({
+                format: 'L'
+            });
+        })
+    </script>
+</body>
+</html>
