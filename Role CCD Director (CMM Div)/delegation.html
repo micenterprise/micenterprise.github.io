@@ -54,7 +54,7 @@
                             </div>
                         </a>
                         <div class="dropdown-divider"></div>
-                        <a href="#" class="dropdown-item dropdown-footer">
+                        <a href="../login.html" class="dropdown-item dropdown-footer">
                             <i class="fas fa-sign-in-alt mr-2"></i>
                             Sign Out
                         </a>
@@ -157,12 +157,6 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="approve-user.html" class="nav-link">
-                                        <i class="fas fa-user-check nav-icon"></i>
-                                        <p>Approve User</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
                                     <a href="delegation.html" class="nav-link active">
                                         <i class="fas fa-users-cog nav-icon"></i>
                                         <p>Delegation</p>
@@ -222,15 +216,15 @@
                                                     <div class="form-group form-inline">
                                                         <label class="col-sm-3">Username</label>
                                                         <div class="col-sm-9">
-                                                            <input type="text" class="form-control form-control-sm w-100pr" value="joko.hendrawan" disabled />
+                                                            <input type="text" class="form-control form-control-sm w-100pr" value="aliana" disabled />
                                                         </div>
                                                     </div>
                                                     <div class="form-group form-inline">
                                                         <label class="col-sm-3">Date Start</label>
 
-                                                        <div class="input-group date col-sm-9" id="datestart" data-target-input="nearest">
-                                                            <input type="text" class="form-control form-control-sm datetimepicker-input" data-target="#datestart" />
-                                                            <div class="input-group-append" data-target="#datestart" data-toggle="datetimepicker">
+                                                        <div class="input-group date col-sm-9" id="effectivedate" data-target-input="nearest">
+                                                            <input type="text" class="form-control form-control-sm datetimepicker-input" data-target="#effectivedate" />
+                                                            <div class="input-group-append" data-target="#effectivedate" data-toggle="datetimepicker">
                                                                 <div class="input-group-text"><i class="far fa-calendar-alt"></i></div>
                                                             </div>
                                                         </div>
@@ -238,16 +232,16 @@
                                                     <div class="form-group form-inline">
                                                         <label class="col-sm-3">Date Stop</label>
 
-                                                        <div class="input-group date col-sm-9" id="datestop" data-target-input="nearest">
-                                                            <input type="text" class="form-control form-control-sm datetimepicker-input" data-target="#datestop" />
-                                                            <div class="input-group-append" data-target="#datestop" data-toggle="datetimepicker">
+                                                        <div class="input-group date col-sm-9" id="effectivedate" data-target-input="nearest">
+                                                            <input type="text" class="form-control form-control-sm datetimepicker-input" data-target="#effectivedate" />
+                                                            <div class="input-group-append" data-target="#effectivedate" data-toggle="datetimepicker">
                                                                 <div class="input-group-text"><i class="far fa-calendar-alt"></i></div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="modal-footer justify-content-end">
-                                                    <button type="button" class="btn btn-primary">Save Delegation</button>
+                                                    <a href="delegation-after.html" type="button" class="btn btn-primary">Save Delegation</a>
                                                     <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
                                                 </div>
                                             </div>
@@ -265,12 +259,11 @@
                                             </button>
                                         </div>
                                     </div>
-
                                     <div class="table-responsive">
                                         <table class="table table-hover text-nowrap table-head-fixed">
                                             <thead>
                                                 <tr>
-                                                    <th>User</th>
+                                                    <th>Username</th>
                                                     <th>Start</th>
                                                     <th>Stop</th>
                                                     <th width="100">Action</th>
@@ -278,8 +271,24 @@
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td colspan="4">
-                                                        <i>No data available in table</i>
+                                                    <td>Lisa Berlian</td>
+                                                    <td>16/11/2022</td>
+                                                    <td>19/11/2022</td>
+                                                    <td>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Lisa Berlian</td>
+                                                    <td>16/11/2022</td>
+                                                    <td>19/11/2022</td>
+                                                    <td>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Lisa Berlian</td>
+                                                    <td>16/11/2022</td>
+                                                    <td>19/11/2022</td>
+                                                    <td>
                                                     </td>
                                                 </tr>
                                             </tbody>

@@ -54,7 +54,7 @@
                             </div>
                         </a>
                         <div class="dropdown-divider"></div>
-                        <a href="login.html" class="dropdown-item dropdown-footer">
+                        <a href="../login.html" class="dropdown-item dropdown-footer">
                             <i class="fas fa-sign-in-alt mr-2"></i>
                             Sign Out
                         </a>
@@ -181,12 +181,6 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="approve-user.html" class="nav-link">
-                                        <i class="fas fa-user-check nav-icon"></i>
-                                        <p>Approve User</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
                                     <a href="delegation.html" class="nav-link">
                                         <i class="fas fa-users-cog nav-icon"></i>
                                         <p>Delegation</p>
@@ -240,8 +234,16 @@
                                     </p>
                                     <input type="file" class="form-control" disabled />
                                      <p class="template-status mt-3">
-                                         <b>Total 3, <span class="text-danger">Failed 0</span></b>
+                                         <b>Total 3, <span class="text-danger">Failed 2</span></b>
                                     </p> 
+                                     <div class="alert alert-default-danger alert-dismissible " role="alert">
+                                         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                                         <p class="mb-2"><b>UPLOAD FAILED!</b></p>
+                                         <ul class="pl-4 mb-1">
+                                             <li>Row 12: only number format for column ABC</li>
+                                             <li>Row 32: only number format for column ABC</li>
+                                         </ul>
+                                     </div>
                                 </div>
                                 <div class="card-footer">
                                     <a href="" class="btn btn-default"><i class="fa fa-download mr-2"></i>Download</a>

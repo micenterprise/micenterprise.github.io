@@ -54,7 +54,7 @@
                             </div>
                         </a>
                         <div class="dropdown-divider"></div>
-                        <a href="login.html" class="dropdown-item dropdown-footer">
+                        <a href="../login.html" class="dropdown-item dropdown-footer">
                             <i class="fas fa-sign-in-alt mr-2"></i>
                             Sign Out
                         </a>
@@ -508,277 +508,285 @@
                                                             </td>
                                                         </tr>
 
-                                                        <!-- Modal Area -->
-                                                        <div class="modal fade" id="modal-lg">
-                                                            <div class="modal-dialog modal-lg">
-                                                                <div class="modal-content">
-                                                                    <div class="modal-header">
-                                                                        <h4 class="modal-title">Product Information</h4>
-                                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                                            <span aria-hidden="true">&times;</span>
-                                                                        </button>
-                                                                    </div>
-                                                                    <div class="modal-body">
-                                                                        <div class="row">
-                                                                            <div class="col-md-6">
-                                                                                <div class="form-group mb-2">
-                                                                                    <label class="label-sm">Product</label>
-                                                                                    <select class="form-control form-control-sm">
-                                                                                        <option>Please Select</option>
-                                                                                    </select>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="col-md-6">
-                                                                                <div class="form-group mb-2">
-                                                                                    <label class="label-sm">Product Same Barcode</label>
-                                                                                    <select class="form-control form-control-sm" disabled>
-                                                                                        <option>Select Other Product</option>
-                                                                                    </select>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-
-
-                                                                        <div class="form-group mb-2">
-                                                                            <label class="label-sm">Old Product</label>
-                                                                            <select class="select2 form-control-sm" multiple="multiple" data-placeholder="Multiple Select" style="width: 100%;">
-                                                                                <option>Old Product 1</option>
-                                                                                <option>Old Product 2</option>
-                                                                                <option>Old Product 3</option>
-                                                                                <option>Old Product 4</option>
-                                                                                <option>Old Product 5</option>
-                                                                                <option>Old Product 6</option>
-                                                                                <option>Old Product 7</option>
-                                                                            </select>
-                                                                        </div>
-
-                                                                        <div class="row">
-                                                                            <div class="col-md-6">
-                                                                                <div class="form-group mb-2">
-                                                                                    <label class="label-sm">Unit Per Dozen</label>
-                                                                                    <input class="form-control form-control-sm" />
-                                                                                </div>
-                                                                                <div class="form-group mb-2">
-                                                                                    <label class="label-sm">PCs/Case</label>
-                                                                                    <input class="form-control form-control-sm" value="Ipack" disabled />
-                                                                                </div>
-                                                                                <div class="form-group mb-2">
-                                                                                    <label class="label-sm">Area</label>
-                                                                                    <select class="form-control form-control-sm">
-                                                                                        <option>Please Select</option>
-                                                                                    </select>
-                                                                                </div>
-                                                                                <div class="form-group mb-2">
-                                                                                    <label class="label-sm">Effective Date</label>
-                                                                                    <select class="form-control form-control-sm">
-                                                                                        <option>Please Select</option>
-                                                                                    </select>
-                                                                                </div>
-                                                                                <div class="form-group mb-2">
-                                                                                    <label class="label-sm">Toko Price PPN</label>
-                                                                                    <div class="input-group input-group-sm">
-                                                                                        <div class="input-group-prepend">
-                                                                                            <span class="input-group-text">
-                                                                                                <span class="badge badge-dark mr-1">OLD</span>26.730
-                                                                                            </span>
-                                                                                        </div>
-                                                                                        <input type="text" class="form-control">
-                                                                                        <div class="input-group-append">
-                                                                                            <span class="input-group-text bg-success"><i class="fa fa-arrow-up mr-1"></i>0</span>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group mb-2">
-                                                                                    <label class="label-sm">Ret Margin (%)</label>
-                                                                                    <div class="input-group input-group-sm">
-                                                                                        <div class="input-group-prepend">
-                                                                                            <span class="input-group-text">
-                                                                                                <span class="badge badge-dark mr-1">OLD</span>26.730
-                                                                                            </span>
-                                                                                        </div>
-                                                                                        <input type="text" class="form-control" value="10" disabled>
-                                                                                        <div class="input-group-append">
-                                                                                            <span class="input-group-text bg-success"><i class="fa fa-arrow-up mr-1"></i>0</span>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="col-md-6">
-                                                                                <div class="form-group mb-2">
-                                                                                    <label class="label-sm">Configuration</label>
-                                                                                    <input class="form-control form-control-sm" />
-                                                                                </div>
-                                                                                <div class="form-group mb-2">
-                                                                                    <label class="label-sm">Remark</label>
-                                                                                    <select class="form-control form-control-sm">
-                                                                                        <option>Please Select</option>
-                                                                                    </select>
-                                                                                </div>
-                                                                                <div class="form-group mb-2">
-                                                                                    <label class="label-sm">Channel</label>
-                                                                                    <select class="form-control form-control-sm">
-                                                                                        <option></option>
-                                                                                    </select>
-                                                                                </div>
-                                                                                <div class="form-group mb-2">
-                                                                                    <label class="label-sm">Toko Price NPPN</label>
-                                                                                    <div class="input-group input-group-sm">
-                                                                                        <div class="input-group-prepend">
-                                                                                            <span class="input-group-text">
-                                                                                                <span class="badge badge-dark mr-1">OLD</span>26.730
-                                                                                            </span>
-                                                                                        </div>
-                                                                                        <input type="text" class="form-control">
-                                                                                        <div class="input-group-append">
-                                                                                            <span class="input-group-text bg-success"><i class="fa fa-arrow-up mr-1"></i>0</span>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                    <!--Kalau Turun-->
-                                                                                    <!--<div class="input-group input-group-sm">
-                                                                                    <input type="text" class="form-control" value="1441.44144144144" disabled>
-                                                                                    <div class="input-group-append">
-                                                                                        <span class="input-group-text bg-danger"><i class="fa fa-arrow-down mr-1"></i>144.144.144.144.144</span>
-                                                                                    </div>
-                                                                                </div>-->
-                                                                                </div>
-                                                                                <div class="form-group mb-2">
-                                                                                    <label class="label-sm">RSP Price PPN</label>
-                                                                                    <div class="input-group input-group-sm">
-                                                                                        <div class="input-group-prepend">
-                                                                                            <span class="input-group-text">
-                                                                                                <span class="badge badge-dark mr-1">OLD</span>26.730
-                                                                                            </span>
-                                                                                        </div>
-                                                                                        <input type="text" class="form-control">
-                                                                                        <div class="input-group-append">
-                                                                                            <span class="input-group-text bg-success"><i class="fa fa-arrow-up mr-1"></i>0</span>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="form-group mb-2">
-                                                                                    <label class="label-sm">Ret Margin (Rp)</label>
-                                                                                    <div class="input-group input-group-sm">
-                                                                                        <div class="input-group-prepend">
-                                                                                            <span class="input-group-text">
-                                                                                                <span class="badge badge-dark mr-1">OLD</span>26.730
-                                                                                            </span>
-                                                                                        </div>
-                                                                                        <input type="text" class="form-control" value="1600" disabled>
-                                                                                        <div class="input-group-append">
-                                                                                            <span class="input-group-text bg-success"><i class="fa fa-arrow-up mr-1"></i>0</span>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="form-group form-inline my-2">
-                                                                            <label class="label-sm">MDG APPROVAL</label>
-                                                                            <div class="ml-5">
-                                                                                <div class="custom-control custom-checkbox custom-checkbox-sm">
-                                                                                    <input class="custom-control-input" type="checkbox" id="customCheckboxApproval" value="optionApproval">
-                                                                                    <label for="customCheckboxApproval" class="custom-control-label">Yes, Approved</label>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="row">
-                                                                            <div class="col-md-6">
-                                                                                <div class="form-group mb-2">
-                                                                                    <label class="label-sm">Approval File</label>
-                                                                                    <input type="file" class="form-control form-control-sm" />
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="col-md-6">
-                                                                                <div class="form-group mb-2">
-                                                                                    <label class="label-sm">Approval Date</label>
-                                                                                    <div class="input-group date" id="effectivedate" data-target-input="nearest">
-                                                                                        <input type="text" class="form-control form-control-sm datetimepicker-input" data-target="#effectivedate" placeholder="MDG Approval Date (DD/MM/YYYY)" />
-                                                                                        <div class="input-group-append" data-target="#effectivedate" data-toggle="datetimepicker">
-                                                                                            <div class="input-group-text"><i class="far fa-calendar-alt"></i></div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="form-group mb-2">
-                                                                            <label class="label-sm">Comment</label>
-                                                                            <textarea type="text" class="form-control form-control-sm">Type a comment here...</textarea>
-                                                                        </div>
-                                                                        <div class="form-group mb-2">
-                                                                            <label class="label-sm">Sub Channel</label>
-                                                                            <div class="row">
-                                                                                <div class="col-md-3">
-                                                                                    <div class="custom-control custom-checkbox custom-checkbox-sm">
-                                                                                        <input class="custom-control-input" type="checkbox" id="customCheckbox1" value="option1">
-                                                                                        <label for="customCheckbox1" class="custom-control-label">MT-SupPre</label>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-md-3">
-                                                                                    <div class="custom-control custom-checkbox custom-checkbox-sm">
-                                                                                        <input class="custom-control-input" type="checkbox" id="customCheckbox2" value="option2">
-                                                                                        <label for="customCheckbox2" class="custom-control-label">MT-SupPre</label>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-md-3">
-                                                                                    <div class="custom-control custom-checkbox custom-checkbox-sm">
-                                                                                        <input class="custom-control-input" type="checkbox" id="customCheckbox3" value="option3">
-                                                                                        <label for="customCheckbox3" class="custom-control-label">MT-SupPre</label>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-md-3">
-                                                                                    <div class="custom-control custom-checkbox custom-checkbox-sm">
-                                                                                        <input class="custom-control-input" type="checkbox" id="customCheckbox4" value="option4">
-                                                                                        <label for="customCheckbox4" class="custom-control-label">MT-SupPre</label>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-md-3">
-                                                                                    <div class="custom-control custom-checkbox custom-checkbox-sm">
-                                                                                        <input class="custom-control-input" type="checkbox" id="customCheckbox5" value="option5">
-                                                                                        <label for="customCheckbox5" class="custom-control-label">MT-SupPre</label>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-md-3">
-                                                                                    <div class="custom-control custom-checkbox custom-checkbox-sm">
-                                                                                        <input class="custom-control-input" type="checkbox" id="customCheckbox6" value="option6">
-                                                                                        <label for="customCheckbox6" class="custom-control-label">MT-SupPre</label>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-md-3">
-                                                                                    <div class="custom-control custom-checkbox custom-checkbox-sm">
-                                                                                        <input class="custom-control-input" type="checkbox" id="customCheckbox7" value="option7">
-                                                                                        <label for="customCheckbox7" class="custom-control-label">MT-SupPre</label>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-md-3">
-                                                                                    <div class="custom-control custom-checkbox custom-checkbox-sm">
-                                                                                        <input class="custom-control-input" type="checkbox" id="customCheckbox8" value="option8">
-                                                                                        <label for="customCheckbox8" class="custom-control-label">MT-SupPre</label>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-md-3">
-                                                                                    <div class="custom-control custom-checkbox custom-checkbox-sm">
-                                                                                        <input class="custom-control-input" type="checkbox" id="customCheckbox9" value="option9">
-                                                                                        <label for="customCheckbox9" class="custom-control-label">MT-SupPre</label>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-md-3">
-                                                                                    <div class="custom-control custom-checkbox custom-checkbox-sm">
-                                                                                        <input class="custom-control-input" type="checkbox" id="customCheckbox10" value="option10">
-                                                                                        <label for="customCheckbox10" class="custom-control-label">MT-SupPre</label>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="modal-footer">
-                                                                        <button type="submit" class="btn btn-primary" formaction="new-proposal.html">SAVE PRODUCT</button>
-                                                                    </div>
-                                                                </div>
-                                                                <!-- /.modal-content -->
-                                                            </div>
-                                                        </div>
                                                     </tbody>
                                                 </table>
 
+                                                <!-- Modal Area -->
+                                                <div class="modal fade" id="modal-lg">
+                                                    <div class="modal-dialog modal-lg">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h4 class="modal-title">Product Information</h4>
+                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                    <span aria-hidden="true">&times;</span>
+                                                                </button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <div class="form-group mb-2">
+                                                                    <label class="label-sm">Division</label>
+                                                                    <select class="form-control form-control-sm" disabled>
+                                                                        <option>FOODS - SCRATCH COOKING AIDS</option>
+                                                                    </select>
+                                                                </div>
+
+                                                                <div class="row">
+                                                                    <div class="col-md-6">
+                                                                        <div class="form-group mb-2">
+                                                                            <label class="label-sm">Product</label>
+                                                                            <select class="form-control form-control-sm">
+                                                                                <option>Please Select</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-6">
+                                                                        <div class="form-group mb-2">
+                                                                            <label class="label-sm">Product Same Barcode</label>
+                                                                            <select class="form-control form-control-sm" disabled>
+                                                                                <option>Select Other Product</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+
+                                                                <div class="form-group mb-2">
+                                                                    <label class="label-sm">Old Product</label>
+                                                                    <select class="select2 form-control-sm" multiple="multiple" data-placeholder="Multiple Select" style="width: 100%;">
+                                                                        <option>Old Product 1</option>
+                                                                        <option>Old Product 2</option>
+                                                                        <option>Old Product 3</option>
+                                                                        <option>Old Product 4</option>
+                                                                        <option>Old Product 5</option>
+                                                                        <option>Old Product 6</option>
+                                                                        <option>Old Product 7</option>
+                                                                    </select>
+                                                                </div>
+
+                                                                <div class="row">
+                                                                    <div class="col-md-6">
+                                                                        <div class="form-group mb-2">
+                                                                            <label class="label-sm">Unit Per Dozen</label>
+                                                                            <input class="form-control form-control-sm" />
+                                                                        </div>
+                                                                        <div class="form-group mb-2">
+                                                                            <label class="label-sm">PCs/Case</label>
+                                                                            <input class="form-control form-control-sm" value="Ipack" disabled />
+                                                                        </div>
+                                                                        <div class="form-group mb-2">
+                                                                            <label class="label-sm">Area</label>
+                                                                            <select class="form-control form-control-sm">
+                                                                                <option>Please Select</option>
+                                                                            </select>
+                                                                        </div>
+                                                                        <div class="form-group mb-2">
+                                                                            <label class="label-sm">Effective Date</label>
+                                                                            <select class="form-control form-control-sm">
+                                                                                <option>Please Select</option>
+                                                                            </select>
+                                                                        </div>
+                                                                        <div class="form-group mb-2">
+                                                                            <label class="label-sm">Toko Price PPN</label>
+                                                                            <div class="input-group input-group-sm">
+                                                                                <div class="input-group-prepend">
+                                                                                    <span class="input-group-text">
+                                                                                        <span class="badge badge-dark mr-1">OLD</span>26.730
+                                                                                    </span>
+                                                                                </div>
+                                                                                <input type="text" class="form-control">
+                                                                                <div class="input-group-append">
+                                                                                    <span class="input-group-text bg-success"><i class="fa fa-arrow-up mr-1"></i>0</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="form-group mb-2">
+                                                                            <label class="label-sm">Ret Margin (%)</label>
+                                                                            <div class="input-group input-group-sm">
+                                                                                <div class="input-group-prepend">
+                                                                                    <span class="input-group-text">
+                                                                                        <span class="badge badge-dark mr-1">OLD</span>26.730
+                                                                                    </span>
+                                                                                </div>
+                                                                                <input type="text" class="form-control" value="10" disabled>
+                                                                                <div class="input-group-append">
+                                                                                    <span class="input-group-text bg-success"><i class="fa fa-arrow-up mr-1"></i>0</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-6">
+                                                                        <div class="form-group mb-2">
+                                                                            <label class="label-sm">Configuration</label>
+                                                                            <input class="form-control form-control-sm" />
+                                                                        </div>
+                                                                        <div class="form-group mb-2">
+                                                                            <label class="label-sm">Remark</label>
+                                                                            <select class="form-control form-control-sm">
+                                                                                <option>Please Select</option>
+                                                                            </select>
+                                                                        </div>
+                                                                        <div class="form-group mb-2">
+                                                                            <label class="label-sm">Channel</label>
+                                                                            <select class="form-control form-control-sm">
+                                                                                <option></option>
+                                                                            </select>
+                                                                        </div>
+                                                                        <div class="form-group mb-2">
+                                                                            <label class="label-sm">Toko Price NPPN</label>
+                                                                            <div class="input-group input-group-sm">
+                                                                                <div class="input-group-prepend">
+                                                                                    <span class="input-group-text">
+                                                                                        <span class="badge badge-dark mr-1">OLD</span>26.730
+                                                                                    </span>
+                                                                                </div>
+                                                                                <input type="text" class="form-control">
+                                                                                <div class="input-group-append">
+                                                                                    <span class="input-group-text bg-success"><i class="fa fa-arrow-up mr-1"></i>0</span>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!--Kalau Turun-->
+                                                                            <!--<div class="input-group input-group-sm">
+                                    <input type="text" class="form-control" value="1441.44144144144" disabled>
+                                    <div class="input-group-append">
+                                        <span class="input-group-text bg-danger"><i class="fa fa-arrow-down mr-1"></i>144.144.144.144.144</span>
+                                    </div>
+                                </div>-->
+                                                                        </div>
+                                                                        <div class="form-group mb-2">
+                                                                            <label class="label-sm">RSP Price PPN</label>
+                                                                            <div class="input-group input-group-sm">
+                                                                                <div class="input-group-prepend">
+                                                                                    <span class="input-group-text">
+                                                                                        <span class="badge badge-dark mr-1">OLD</span>26.730
+                                                                                    </span>
+                                                                                </div>
+                                                                                <input type="text" class="form-control">
+                                                                                <div class="input-group-append">
+                                                                                    <span class="input-group-text bg-success"><i class="fa fa-arrow-up mr-1"></i>0</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="form-group mb-2">
+                                                                            <label class="label-sm">Ret Margin (Rp)</label>
+                                                                            <div class="input-group input-group-sm">
+                                                                                <div class="input-group-prepend">
+                                                                                    <span class="input-group-text">
+                                                                                        <span class="badge badge-dark mr-1">OLD</span>26.730
+                                                                                    </span>
+                                                                                </div>
+                                                                                <input type="text" class="form-control" value="1600" disabled>
+                                                                                <div class="input-group-append">
+                                                                                    <span class="input-group-text bg-success"><i class="fa fa-arrow-up mr-1"></i>0</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group form-inline my-2">
+                                                                    <label class="label-sm">MDG APPROVAL</label>
+                                                                    <div class="ml-5">
+                                                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                                                            <input class="custom-control-input" type="checkbox" id="customCheckboxApproval" value="optionApproval">
+                                                                            <label for="customCheckboxApproval" class="custom-control-label">Yes, Approved</label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col-md-6">
+                                                                        <div class="form-group mb-2">
+                                                                            <label class="label-sm">Approval File</label>
+                                                                            <input type="file" class="form-control form-control-sm" />
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-6">
+                                                                        <div class="form-group mb-2">
+                                                                            <label class="label-sm">Approval Date</label>
+                                                                            <div class="input-group date" id="effectivedate" data-target-input="nearest">
+                                                                                <input type="text" class="form-control form-control-sm datetimepicker-input" data-target="#effectivedate" placeholder="MDG Approval Date (DD/MM/YYYY)" />
+                                                                                <div class="input-group-append" data-target="#effectivedate" data-toggle="datetimepicker">
+                                                                                    <div class="input-group-text"><i class="far fa-calendar-alt"></i></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group mb-2">
+                                                                    <label class="label-sm">Comment</label>
+                                                                    <textarea type="text" class="form-control form-control-sm">Type a comment here...</textarea>
+                                                                </div>
+                                                                <div class="form-group mb-2">
+                                                                    <label class="label-sm">Sub Channel</label>
+                                                                    <div class="row">
+                                                                        <div class="col-md-3">
+                                                                            <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                                                                <input class="custom-control-input" type="checkbox" id="customCheckbox1" value="option1">
+                                                                                <label for="customCheckbox1" class="custom-control-label">MT-SupPre</label>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-3">
+                                                                            <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                                                                <input class="custom-control-input" type="checkbox" id="customCheckbox2" value="option2">
+                                                                                <label for="customCheckbox2" class="custom-control-label">MT-SupPre</label>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-3">
+                                                                            <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                                                                <input class="custom-control-input" type="checkbox" id="customCheckbox3" value="option3">
+                                                                                <label for="customCheckbox3" class="custom-control-label">MT-SupPre</label>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-3">
+                                                                            <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                                                                <input class="custom-control-input" type="checkbox" id="customCheckbox4" value="option4">
+                                                                                <label for="customCheckbox4" class="custom-control-label">MT-SupPre</label>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-3">
+                                                                            <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                                                                <input class="custom-control-input" type="checkbox" id="customCheckbox5" value="option5">
+                                                                                <label for="customCheckbox5" class="custom-control-label">MT-SupPre</label>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-3">
+                                                                            <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                                                                <input class="custom-control-input" type="checkbox" id="customCheckbox6" value="option6">
+                                                                                <label for="customCheckbox6" class="custom-control-label">MT-SupPre</label>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-3">
+                                                                            <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                                                                <input class="custom-control-input" type="checkbox" id="customCheckbox7" value="option7">
+                                                                                <label for="customCheckbox7" class="custom-control-label">MT-SupPre</label>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-3">
+                                                                            <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                                                                <input class="custom-control-input" type="checkbox" id="customCheckbox8" value="option8">
+                                                                                <label for="customCheckbox8" class="custom-control-label">MT-SupPre</label>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-3">
+                                                                            <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                                                                <input class="custom-control-input" type="checkbox" id="customCheckbox9" value="option9">
+                                                                                <label for="customCheckbox9" class="custom-control-label">MT-SupPre</label>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-md-3">
+                                                                            <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                                                                <input class="custom-control-input" type="checkbox" id="customCheckbox10" value="option10">
+                                                                                <label for="customCheckbox10" class="custom-control-label">MT-SupPre</label>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="submit" class="btn btn-primary" formaction="new-proposal.html">SAVE CHANGES</button>
+                                                                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                                                            </div>
+                                                        </div>
+                                                        <!-- /.modal-content -->
+                                                    </div>
+                                                </div>
                                             </div>
 
                                             <ul class="pagination pagination-sm m-0 mt-3 justify-content-center">

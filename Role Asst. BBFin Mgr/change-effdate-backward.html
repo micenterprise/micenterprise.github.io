@@ -54,7 +54,7 @@
                             </div>
                         </a>
                         <div class="dropdown-divider"></div>
-                        <a href="login.html" class="dropdown-item dropdown-footer">
+                        <a href="../login.html" class="dropdown-item dropdown-footer">
                             <i class="fas fa-sign-in-alt mr-2"></i>
                             Sign Out
                         </a>
@@ -181,12 +181,6 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="approve-user.html" class="nav-link">
-                                        <i class="fas fa-user-check nav-icon"></i>
-                                        <p>Approve User</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
                                     <a href="delegation.html" class="nav-link">
                                         <i class="fas fa-users-cog nav-icon"></i>
                                         <p>Delegation</p>
@@ -228,13 +222,22 @@
                         <div class="col-lg-12">
                             <div class="card">
                                 <div class="card-body">
-                                    <div class="input-group input-group-sm mb-3 w-250">
-                                        <input type="text" name="table_search" class="form-control float-right" placeholder="Search">
 
-                                        <div class="input-group-append">
-                                            <button type="submit" class="btn btn-default">
-                                                <i class="fas fa-search"></i>
-                                            </button>
+                                    <div class="form-inline">
+                                        <div class="input-group input-group-sm mb-3 w-250">
+                                            <input type="text" name="table_search" class="form-control float-right" placeholder="Search">
+
+                                            <div class="input-group-append">
+                                                <button type="submit" class="btn btn-default">
+                                                    <i class="fas fa-search"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="input-group date input-group-sm mb-3 ml-2" id="proposalDate" data-target-input="nearest">
+                                            <input type="text" class="form-control form-control-sm datetimepicker-input" data-target="#proposalDate" placeholder="Proposal Date">
+                                            <div class="input-group-append" data-target="#proposalDate" data-toggle="datetimepicker">
+                                                <div class="input-group-text"><i class="far fa-calendar-alt"></i></div>
+                                            </div>
                                         </div>
                                     </div>
 
