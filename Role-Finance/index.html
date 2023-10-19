@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<!--
+This is a starter template page. Use this page to start your new project from
+scratch. This page gets rid of all links and provides the needed markup only.
+-->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Unilever DPI</title>
+    <!-- Favicons -->
+    <link href="../dist/img/favicon.ico" rel="icon">
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="../plugins/fontawesome-free/css/all.min.css">
+    <!-- daterange picker -->
+    <link rel="stylesheet" href="../plugins/daterangepicker/daterangepicker.css">
+    <!-- Tempusdominus Bootstrap 4 -->
+    <link rel="stylesheet" href="../plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+    <!-- Select2 -->
+    <link rel="stylesheet" href="../plugins/select2/css/select2.min.css">
+    <link rel="stylesheet" href="../plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css">
+    <!-- overlayScrollbars -->
+    <link rel="stylesheet" href="../plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+    <!-- DataTables -->
+    <link rel="stylesheet" href="../plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="../plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+    <link rel="stylesheet" href="../plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="../dist/css/style.css">
+</head>
+<body class="hold-transition layout-top-nav layout-navbar-fixed">
+    <img class="img-login-bottom" src="../dist/img/img-footer.png" />
+    <div class="wrapper">
+
+        <!-- Navbar -->
+        <nav class="main-header navbar navbar-expand-md navbar-light navbar-white">
+            <div class="container">
+                <a href="../index.html" class="navbar-brand">
+                    <img src="../dist/img/unilever.png" alt="AdminLTE Logo" class="brand-image">
+
+                    <span class="brand-text font-weight-light mr-5">Digital Promo Indonesia</span>
+                </a>
+
+                <button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <!-- Right navbar links -->
+                <ul class="order-1 order-md-3 navbar-nav navbar-no-expand ml-auto">
+                    <li class="nav-item dropdown mr-3">
+                        <a class="btn btn-outline-secondary" data-toggle="dropdown" href="#">
+                            <i class="fas fa-share-alt mr-2"></i>Share
+                        </a>
+                    </li>
+                    <!-- Notifications Dropdown Menu -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" data-toggle="dropdown" href="#">
+                            <i class="far fa-bell"></i>
+                            <span class="badge badge-danger navbar-badge">5</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+                            <span class="dropdown-header">5 Notifications</span>
+                            <div class="dropdown-divider"></div>
+                            <a href="#" class="dropdown-item">
+                                <i class="fas fa-paper-plane mr-2"></i> 4 new tickets submitted
+                                <span class="float-right text-muted text-sm">3 mins</span>
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a href="#" class="dropdown-item">
+                                <i class="fas fa-clipboard-check mr-2"></i> 8 tickets need approval
+                                <span class="float-right text-muted text-sm">12 hours</span>
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-widget="fullscreen" href="#" role="button">
+                            <i class="fas fa-expand-arrows-alt"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link pt-0" data-toggle="dropdown" href="#">
+                            <h3 class="dropdown-item-title">
+                                Indah Permata
+                            </h3>
+                            <p class="text-sm text-muted">Finance</p>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+                            <a href="#" class="dropdown-item">
+                                <!-- Message Start -->
+                                <div class="media">
+                                    <img src="../dist/img/unilever.png" alt="User Avatar" class="img-size-32 mr-3 py-2">
+                                    <div class="media-body mt-1">
+                                        <h3 class="dropdown-item-title">
+                                            Indah Permata
+                                        </h3>
+                                        <p class="text-sm text-muted">Finance</p>
+                                    </div>
+                                </div>
+                                <!-- Message End -->
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a href="../index.html" class="dropdown-item dropdown-footer">
+                                <i class="fas fa-sign-in-alt mr-2"></i>
+                                Sign Out
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- /.navbar -->
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <div class="content-header">
+                <div class="container">
+                    <div class="row mb-2">
+                        <div class="col-sm-6">
+                            <h3 class="m-0">Finance Access View</h3>
+                        </div><!-- /.col -->
+                        <div class="col-sm-6">
+                            <ol class="breadcrumb float-sm-right">
+                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                <li class="breadcrumb-item active">Finance</li>
+                            </ol>
+                        </div><!-- /.col -->
+                    </div><!-- /.row -->
+                </div><!-- /.container-fluid -->
+            </div>
+            <!-- /.content-header -->
+            <!-- Main content -->
+            <div class="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="mb-3">
+                                        <button class="btn btn-outline-secondary">
+                                            <i class="fas fa-share-alt mr-2"></i>Share
+                                        </button>
+                                        <button class="btn btn-outline-success">
+                                            <i class="fas fa-file-excel mr-2"></i>Export
+                                        </button>
+                                        <button class="btn btn-primary" data-toggle="modal" data-target="#selectModal">
+                                            <i class="fas fa-search mr-2"></i>View the List at Promo ID level
+                                        </button>
+                                        <!-- Search in all column -->
+                                        <div class="form-inline float-right">
+                                            <div class="input-group w-250 mr-1">
+                                                <input type="text" class="form-control" placeholder="Search...">
+                                            </div>
+                                            <button type="submit" class="btn btn-default mr-1" title="Search">
+                                                <i class="fas fa-search"></i>
+                                            </button>
+                                            <a class="btn btn-default" title="Reset Filter" href="/Pricelist/List_Pricelist">
+                                                <i class="fas fa-redo-alt"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="table-responsive">
+
+                                        <table id="example2" class="table table-bordered table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th></th>
+                                                    <th>Fund Name</th>
+                                                    <th>Days Remining</th>
+                                                    <th>Budget Holder</th>
+                                                    <th>Fund Template</th>
+                                                    <th>Fund Version</th>
+                                                    <th>Business Unit</th>
+                                                    <th>Category</th>
+                                                    <th>TPM Current Budget</th>
+                                                    <th>TPM LE Spend</th>
+                                                    <th>TPM Available to Plan</th>
+                                                    <th>Budget Provision</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="text-nowrap">
+                                                <tr>
+                                                    <td>
+                                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                                            <input class="custom-control-input" type="checkbox" id="customCheckbox1">
+                                                            <label for="customCheckbox1" class="custom-control-label custom-control-label-lg"></label>
+                                                        </div>
+                                                    </td>
+                                                    <td>F-0043934</td>
+                                                    <td><span class="text-danger">1 Day Left</span></td>
+                                                    <td>CCD BEVERAGES JUICE</td>
+                                                    <td>A&P</td>
+                                                    <td>LMT</td>
+                                                    <td>HC</td>
+                                                    <td>BEVERAGES</td>
+                                                    <td>(59.923.235)</td>
+                                                    <td>260.779.240</td>
+                                                    <td>(320.702.475)</td>
+                                                    <td><span class="badge-table bg-default-success">Budget Completed</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                                            <input class="custom-control-input" type="checkbox" id="customCheckbox2">
+                                                            <label for="customCheckbox2" class="custom-control-label custom-control-label-lg"></label>
+                                                        </div>
+                                                    </td>
+                                                    <td>F-0043935</td>
+                                                    <td><span class="text-danger">3 Days Left</span></td>
+                                                    <td>CCD BEVERAGES JUICE</td>
+                                                    <td>A&P</td>
+                                                    <td>LMT</td>
+                                                    <td>HC</td>
+                                                    <td>BEVERAGES</td>
+                                                    <td>(59.923.235)</td>
+                                                    <td>260.779.240</td>
+                                                    <td>(320.702.475)</td>
+                                                    <td><span class="badge-table bg-default-danger">Budget Pending</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                                            <input class="custom-control-input" type="checkbox" id="customCheckbox3">
+                                                            <label for="customCheckbox3" class="custom-control-label custom-control-label-lg"></label>
+                                                        </div>
+                                                    </td>
+                                                    <td>F-0043936</td>
+                                                    <td><span class="text-warning">6 Days Left</span></td>
+                                                    <td>CCD BEVERAGES JUICE</td>
+                                                    <td>A&P</td>
+                                                    <td>LMT</td>
+                                                    <td>HC</td>
+                                                    <td>BEVERAGES</td>
+                                                    <td>(59.923.235)</td>
+                                                    <td>260.779.240</td>
+                                                    <td>(320.702.475)</td>
+                                                    <td>
+                                                        <button class="btn btn-primary btn-block" data-toggle="modal" data-target="#optionModal">
+                                                            <i class="fas fa-mouse-pointer mr-2"></i>Select Option
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="row mt-3 justify-content-between">
+                                        <div class="col-sm-12 col-md-6">
+                                            <div class="dataTables_info">
+                                                Showing 1 to 5 of 5 entries
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6">
+                                            <div class="dataTables_paginate paging_simple_numbers">
+                                                <ul class="pagination justify-content-end">
+                                                    <li class="paginate_button page-item previous disabled" id="example2_previous">
+                                                        <a href="#" aria-controls="example2" data-dt-idx="0" tabindex="0" class="page-link">Previous</a>
+                                                    </li>
+                                                    <li class="paginate_button page-item active">
+                                                        <a href="#" aria-controls="example2" data-dt-idx="1" tabindex="0" class="page-link">1</a>
+                                                    </li>
+                                                    <li class="paginate_button page-item next disabled" id="example2_next">
+                                                        <a href="#" aria-controls="example2" data-dt-idx="7" tabindex="0" class="page-link">Next</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div><!-- /.container-fluid -->
+            </div>
+            <!-- /.content -->
+        </div>
+        <!-- /.content-wrapper -->
+        <!-- /.control-sidebar -->
+        <!-- Main Footer -->
+        <footer class="main-footer">
+
+            <!-- Default to the left -->
+            <strong>Copyright &copy; 2023 <a href="">Unilever DPI</a>.</strong> All rights reserved.
+        </footer>
+    </div>
+    <!-- ./wrapper -->
+    <!-- Option Modal -->
+    <div class="modal fade" id="optionModal" tabindex="-1" role="dialog" aria-labelledby="optionModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Ticket Properties</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group form-inline">
+                        <label class="col-md-4 px-0">Finance User</label>
+                        <input type="text" class="form-control col-md-8" value="Indah Permata" />
+                    </div>
+                    <div class="form-group form-inline">
+                        <label class="col-md-4 px-0">Fund Version</label>
+                        <input type="text" class="form-control col-md-8" value="LMT" />
+                    </div>
+                    <div class="form-group form-inline">
+                        <label class="col-md-4 px-0">Business Unit</label>
+                        <input type="text" class="form-control col-md-8" value="BPC" />
+                    </div>
+                    <div class="form-group form-inline">
+                        <label class="col-md-4 px-0">Budget Provision</label>
+                        <div class="col-md-8 form-iline">
+                            <div class="custom-control custom-radio mt-2">
+                                <input class="custom-control-input" type="radio" id="customRadio1" name="customRadio" checked>
+                                <label for="customRadio1" class="custom-control-label font-weight-normal">
+                                    Budget Provision Completed
+                                </label>
+                            </div>
+                            <div class="custom-control custom-radio mt-2">
+                                <input class="custom-control-input" type="radio" id="customRadio2" name="customRadio">
+                                <label for="customRadio2" class="custom-control-label font-weight-normal">
+                                    Budget Provision Pending
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Notes</label>
+                        <textarea type="text" class="form-control">Promo sudah bisa di continue</textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Select Modal -->
+    <div class="modal fade" id="selectModal" tabindex="-1" role="dialog" aria-labelledby="selectModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document" style="max-width: 95%;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">List Based on Promo ID</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="table-responsive">
+
+                        <table id="example2" class="table table-bordered table-hover">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>Fund Name</th>
+                                    <th width="200">Ticket Number</th>
+                                    <th>OPSO ID</th>
+                                    <th width="200">Promo Name</th>
+                                    <th>Start Date</th>
+                                    <th>End Date</th>
+                                    <th>Budget</th>
+                                    <th>Budget Holder</th>
+                                    <th>Creation Request</th>
+                                    <th>Uploader</th>
+                                    <th width="200">Status</th>
+                                    <th>Tactic ID</th>
+                                    <th>Plan Spend</th>
+                                    <th>LE Spend</th>
+                                    <th>Withdraws/Payments (Approved)</th>
+                                    <th>TPM Available to Plan</th>
+                                    <th>Budget Provision</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-nowrap">
+                                <tr>
+                                    <td>
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox1">
+                                            <label for="customCheckbox1" class="custom-control-label custom-control-label-lg"></label>
+                                        </div>
+                                    </td>
+                                    <td>F-0043934</td>
+                                    <td class="text-wrap">REQ/041222/CCD BEV/OPSO&ISR/27</td>
+                                    <td>P-00103550</td>
+                                    <td class="text-wrap">A&FABCLEAN2-OI-SD NON-DOLPHIN-JAN2023</td>
+                                    <td>1-Mar-23</td>
+                                    <td>1-Apr-23</td>
+                                    <td>Rp2.081.561</td>
+                                    <td>CCD BEVERAGES JUICES</td>
+                                    <td>OPSO&ISR</td>
+                                    <td>Yuli Yuliawati</td>
+                                    <td><span class="badge-table bg-default-warning">Waiting for Budget Alignment</span></td>
+                                    <td>T-00103550</td>
+                                    <td>Rp 4.653.964</td>
+                                    <td>Rp 4.653.964</td>
+                                    <td>3687704489</td>
+                                    <td>(216.386)</td>
+                                    <td><span class="badge-table bg-default-success">Budget Completed</span></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox1">
+                                            <label for="customCheckbox1" class="custom-control-label custom-control-label-lg"></label>
+                                        </div>
+                                    </td>
+                                    <td>F-0043934</td>
+                                    <td class="text-wrap">REQ/041222/CCD BEV/OPSO&ISR/27</td>
+                                    <td>P-00103550</td>
+                                    <td class="text-wrap">A&FABCLEAN2-OI-SD NON-DOLPHIN-JAN2023</td>
+                                    <td>1-Mar-23</td>
+                                    <td>1-Apr-23</td>
+                                    <td>Rp2.081.561</td>
+                                    <td>CCD BEVERAGES JUICES</td>
+                                    <td>OPSO&ISR</td>
+                                    <td>Yuli Yuliawati</td>
+                                    <td><span class="badge-table bg-default-warning">Waiting for Budget Alignment</span></td>
+                                    <td>T-00103550</td>
+                                    <td>Rp 4.653.964</td>
+                                    <td>Rp 4.653.964</td>
+                                    <td>3687704489</td>
+                                    <td>(216.386)</td>
+                                    <td><span class="badge-table bg-default-success">Budget Completed</span></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="custom-control custom-checkbox custom-checkbox-sm">
+                                            <input class="custom-control-input" type="checkbox" id="customCheckbox1">
+                                            <label for="customCheckbox1" class="custom-control-label custom-control-label-lg"></label>
+                                        </div>
+                                    </td>
+                                    <td>F-0043934</td>
+                                    <td class="text-wrap">REQ/041222/CCD BEV/OPSO&ISR/27</td>
+                                    <td>P-00103550</td>
+                                    <td class="text-wrap">A&FABCLEAN2-OI-SD NON-DOLPHIN-JAN2023</td>
+                                    <td>1-Mar-23</td>
+                                    <td>1-Apr-23</td>
+                                    <td>Rp2.081.561</td>
+                                    <td>CCD BEVERAGES JUICES</td>
+                                    <td>OPSO&ISR</td>
+                                    <td>Yuli Yuliawati</td>
+                                    <td><span class="badge-table bg-default-warning">Waiting for Budget Alignment</span></td>
+                                    <td>T-00103550</td>
+                                    <td>Rp 4.653.964</td>
+                                    <td>Rp 4.653.964</td>
+                                    <td>3687704489</td>
+                                    <td>(216.386)</td>
+                                    <td><span class="badge-table bg-default-success">Budget Completed</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- REQUIRED SCRIPTS -->
+    <!-- jQuery -->
+    <script src="../plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Select2 -->
+    <script src="../plugins/select2/js/select2.full.min.js"></script>
+    <!-- InputMask -->
+    <script src="../plugins/moment/moment.min.js"></script>
+    <script src="../plugins/inputmask/jquery.inputmask.min.js"></script>
+    <!-- date-range-picker -->
+    <script src="../plugins/daterangepicker/daterangepicker.js"></script>
+    <!-- Tempusdominus Bootstrap 4 -->
+    <script src="../plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+    <!-- overlayScrollbars -->
+    <script src="../plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+    <!-- Easy Number Separator -->
+    <script src="../plugins/easy-number-separator/easy-number-separator.js"></script>
+    <!-- DataTables  & Plugins -->
+    <script src="../plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="../plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+    <script src="../plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+    <script src="../plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+    <script src="../plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
+    <script src="../plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
+    <script src="../plugins/jszip/jszip.min.js"></script>
+    <script src="../plugins/pdfmake/pdfmake.min.js"></script>
+    <script src="../plugins/pdfmake/vfs_fonts.js"></script>
+    <script src="../plugins/datatables-buttons/js/buttons.html5.min.js"></script>
+    <script src="../plugins/datatables-buttons/js/buttons.print.min.js"></script>
+    <script src="../plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
+    <!-- bs-custom-file-input -->
+    <script src="../plugins/bs-custom-file-input/bs-custom-file-input.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="../dist/js/script.js"></script>
+    <!-- Page specific script -->
+    <script>
+        $(function () {
+            //Initialize Select2 Elements
+            $('.select2').select2()
+
+            //Initialize Select2 Elements
+            $('.select2bs4').select2({
+                theme: 'bootstrap4'
+            })
+
+            //Date picker
+            $('#effectivedate').datetimepicker({
+                format: 'L'
+            })
+
+            $('#example2').DataTable({
+                "paging": false,
+                "lengthChange": false,
+                "searching": false,
+                "ordering": true,
+                "info": false,
+                "autoWidth": false,
+                "responsive": false,
+            });
+        })
+        easyNumberSeparator({
+            selector: '.number-separator',
+            separator: '.',
+            decimalSeparator: ',',
+        })
+
+    </script>
+</body>
+</html>
