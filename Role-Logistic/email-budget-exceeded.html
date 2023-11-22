@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Email Notification</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Theme style -->
+    <!--<link rel="stylesheet" href="style.css">-->
+    <!-- Google Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+    <style type="text/css">
+        body {
+            font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-weight: 400;
+            overflow-x: hidden;
+            overflow-y: auto;
+            /*background: #0E0E9A;*/
+            background: #fff;
+        }
+
+        .box {
+            width: 800px;
+            margin: 7% auto;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        @media (max-width: 768px) {
+            .box {
+                width: 90%;
+                margin-top: 30px;
+            }
+        }
+
+        .box-body {
+            background: #f2f2fa;
+            border-top: 0;
+            color: #666;
+            text-align: center;
+            color: #283C4B;
+            font-size: 16px;
+            padding-left: 35px;
+            padding-right: 35px;
+            padding-bottom: 0px !important;
+        }
+
+        .box-tittle {
+            padding: 20px;
+            border-top: 0;
+            text-align: center;
+            background: #0E0E9A;
+            color: white;
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        .box-footer {
+            padding: 15px;
+            border-top: 0;
+            text-align: center;
+            background: #0E0E9A;
+            color: white;
+            font-size: 16px;
+        }
+
+
+        .table {
+            width: 100%;
+            background: #f2f2fa !important;
+            margin-bottom: 20px !important;
+            padding: 0px !important;
+        }
+
+            .table .th {
+                font-weight: 600;
+            }
+
+            .table .th, .table .td {
+                border: 1px solid #283C4B !important;
+                padding: 5px;
+                text-align: left;
+                background: #f2f2fa !important;
+                word-wrap: break-word;
+                font-size: 16px;
+            }
+        
+        a.btn {
+            font-weight: 500;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            cursor: pointer;
+            border: 1px solid transparent;
+            padding: 10px 20px;
+            font-size: 15px;
+            border-radius: 4px;
+            transition-duration: 0.4s;
+            text-transform: uppercase !important;
+        }
+
+        .btn-primary {
+            color: #fff !important;
+            background: #0E0E9A;
+            text-decoration: none !important;
+        }
+
+            .btn-primary:hover {
+                background: #1414c9;
+                color: white;
+            }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="box-tittle" style="border-radius: 7px 7px 0px 0px;">
+            <span>Quick Response Invoicing System (QRIS)</span>
+        </div>
+        <div class="box-body" style="background: #f2f2fa !important;">
+
+            <br /><br />
+            <img src="https://eprofit.azurewebsites.net/img/unilever.png" width="70" alt="Unilever.png" style="width:70px !important;">
+            <br />
+            <h4><b>Dear Logistic Team,</b></h4>
+            <p>
+                The budget is <b>NOT ENOUGH</b> for the blanket transaction with the following details.
+            </p>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th class="th">Vendor</th>
+                        <th class="th">Transactions</th>
+                        <th class="th">Details</th>
+                        <th class="th">No. Proforma Invoice</th>
+                        <th class="th">Period</th>
+                        <th class="th">Amount</th>
+                        <th class="th">Remarks</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="td">Linfox<br />VDR12345</td>
+                        <td class="td">Additional MHE</td>
+                        <td class="td"></td>
+                        <td class="td">INV12345</td>
+                        <td class="td">Jan 2023 - Mar 2023</td>
+                        <td class="td">10.000.000</td>
+                        <td class="td">MHE Additional for Festive</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>Please make a new PO as Quotation Ticket TCK123 in the following link.</p>
+            <a href="create-quotation-auto.html">unilever-qris/ticket123-details.com</a>
+            <br /><br />
+            <p>Thank you & regards,</p>
+            <p><b>Unilever Logistic Team</b></p>
+            <br />
+        </div>
+
+        <div class="box-footer" style="border-radius: 0px 0px 7px 7px;">
+            <p style="padding: 0 !important; margin: 0px !important;">
+                PT. Unilever Indonesia | QRIS <br />
+                <i style="margin: 0 !important; font-size: 12px;">This is an auto generated email</i>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
